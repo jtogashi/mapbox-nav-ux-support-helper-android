@@ -63,9 +63,6 @@ dependencies {
 
     implementation(libs.mapbox.navux)
 
-    // workaround for NavUX
-    implementation(libs.protobuf)
-
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
